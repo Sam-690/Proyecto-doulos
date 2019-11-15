@@ -1,0 +1,249 @@
+.content-one{
+	width: 100%;
+}
+
+.content-portada{
+	width: 100%; 
+
+}
+
+.content-img{
+	background-image: url(/Imagen/zelda.jpg);
+	width: 100%;
+    height: 600px;
+    background-color: blanchedalmond;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 150%; 
+	-webkit-box-pack: center; 
+	-ms-flex-pack: center; 
+	justify-content: center;
+}
+
+@media screen and (max-width: 900px){
+	.content-img{
+	background-size: 1500px;
+	}
+}
+
+.content-font{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	top: 100px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	text-align: center;
+	padding: 10px;
+}
+
+.content-font label{
+	color: black;
+	font-size: 60px;
+	margin-top: 20px;
+}
+.content-font h2{
+	color: black;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+
+/**CONTENT TWO*/
+
+.content-two{
+	width: 100%;
+	padding: 40px;
+	background: whitesmoke;
+}
+
+.content-details{
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+@media screen and (max-width: 900px){
+	.content-details{
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}
+
+.content-details-for{
+	margin: 30px;
+}
+
+.content-details-for p{
+	margin-top: 20px;
+}
+
+.content-details-for img {
+	width: 350px;
+	height: 250px;
+}
+
+.content-two .content-details img {
+		width: 350px;
+		height: 250px;
+}
+
+
+/*CONTENT THREE*/
+
+.content-three{
+	width: 100%;
+	background: whitesmoke;
+}
+
+.content-item{
+	text-align: center;
+	padding: 40px;
+}
+
+.content-img-item{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.content-img-item img{
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+.content-img-item img:hover{
+	cursor: pointer;
+	-webkit-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+
+/*CONTENT FOUR*/
+
+.content-for{
+	width: 100%;
+	padding: 40px;
+}
+
+.content-item2{
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 900px){
+	.content-item2{
+		width: 100%;
+	}
+}
+
+.content-item2 p{
+	margin-top: 10px;
+	color: black;
+}
+
+.content-item2 img{
+	width: 100%;
+	max-width: 1000px;
+	margin-top: 40px;
+}
+
+/* contacto */
+
+.contact-section {
+    padding: 5rem 0 0;
+  }
+  
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+  
+  .contact-section .card h4 {
+    font-size: 0.8rem;
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  
+  .contact-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.15rem;
+    width: 19.5rem;
+  }
+  
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .contact-section .social a:active {
+    color: #fff;
+  }
+  
+  body {
+    font-family: 'Nunito';
+    letter-spacing: 0.0625em;
+  }
+  
+  a {
+    color: #64a19d;
+  }
+  
+  a:focus, a:hover {
+    text-decoration: none;
+    color: #3c6360;
+  }
+  
+  .bg-black {
+    background-color: #161616 !important;
+  }
+  
+  .bg-primary {
+    background-color: #64a19d !important;
+  }
+  
+  .text-primary {
+    color: #64a19d !important;
+  }
+  
+  footer {
+    padding: 5rem 0;
+  }
+
+  .label {
+	  color: black;
+  }
+
+  .h2 {
+	  color: black;
+  }
+
+  .content-item2 img {
+	  float: left;
+  }
