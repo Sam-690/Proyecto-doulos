@@ -129,10 +129,16 @@
 	transition: all 300ms;
 }
 
+.content-three .content-item img {
+float: left;
+width: 450px;
+height: 350px;
+}
+
 
 /*CONTENT FOUR*/
 
-.content-for{
+.content-four{
 	width: 100%;
 	padding: 40px;
 }
@@ -154,10 +160,13 @@
 	color: black;
 }
 
-.content-item2 img{
+.content-four .content-item2 img{
 	width: 100%;
 	max-width: 1000px;
 	margin-top: 40px;
+	float: right;
+	width: 450px;
+    height: 350px;
 }
 
 /* contacto */
@@ -247,3 +256,15 @@
   .content-item2 img {
 	  float: left;
   }
+
+  @media screen and (max-width:640px) {
+	/* reglas CSS */
+  }
+  @media screen and (max-width:1024px) and (min-width:640px) {
+	/* reglas CSS */
+  }
+  @media screen and (min-width:1024px) {
+	/* reglas CSS */
+  }
+
+  

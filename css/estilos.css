@@ -41,12 +41,14 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgb(27, 26, 26);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgb(27, 26, 26);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
